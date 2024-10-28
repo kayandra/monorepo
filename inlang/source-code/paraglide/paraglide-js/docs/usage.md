@@ -11,7 +11,7 @@ It expects messages to be in `messages/{lang}.json` relative to your repo root.
 {
 	//the $schema key is automatically ignored
 	"$schema": "https://inlang.com/schema/inlang-message-format",
-	"hello_world: "Hello World!",
+	"hello_world": "Hello World!",
 	"greeting": "Hello {name}!"
 }
 ```
@@ -75,7 +75,7 @@ You can put HTML into the messages. This is useful for links and images.
 ```json
 // messages/de.json
 {
-	you_must_agree_to_the_tos": "Sie müssen den <a href='/de/agb'>Nutzungsbedingungen</a> zustimmen."
+	"you_must_agree_to_the_tos": "Sie müssen den <a href='/de/agb'>Nutzungsbedingungen</a> zustimmen."
 }
 ```
 
